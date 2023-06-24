@@ -1,0 +1,41 @@
+.card {
+  background-color: rgb(50, 145, 223);
+  border: 2px solid darkblue;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card > span {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.card p {
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+  border-bottom: 1px solid darkblue;
+}
+.card p span {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.buttonContainer button {
+  background-color: rgb(50, 96, 182);
+  border: 1px solid darkblue;
+  color: cornsilk;
+  font-size: 1.1rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
+.buttonContainer button:hover {
+  cursor: pointer;
+  background-color: rgb(32, 83, 179);
+}

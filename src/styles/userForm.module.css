@@ -1,0 +1,50 @@
+form {
+  background-color: rgb(50, 145, 223);
+
+  border: 2px solid darkblue;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1.5rem;
+}
+form h2 {
+  font-weight: 400;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+}
+form div label {
+  font-size: 1.1rem;
+  padding: 0.2rem;
+}
+form div input {
+  border: 1px solid darkblue;
+  background-color: cornflowerblue;
+  padding: 0.1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 0.35rem;
+}
+form div input::placeholder {
+  color: cornsilk;
+}
+form div input:focus,
+form div input:hover {
+  border: 1px solid darkblue;
+  background-color: whitesmoke;
+}
+form button {
+  color: cornsilk;
+  font-size: 1.5rem;
+  padding: 0.2rem 1rem;
+  border-radius: 0.4rem;
+  border: 1px solid darkblue;
+  background-color: rgb(50, 96, 182);
+}
+form button:hover {
+  cursor: pointer;
+  background-color: rgb(32, 83, 179);
+}
